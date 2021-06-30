@@ -25,14 +25,14 @@
         <div id="imagePrincipale">
             <h1>Adam Bederiat</h1>
             <div id="premierTrait"></div>
-            <h3>Décourvez moi</h3>
+            <h3>Découvrez moi</h3>
         </div>
     </header>
 
 
         <section id="presentation">
             <div id="texteIntro">
-                <h2>Un lieu unique pour un séjour unique</h2>
+                <h2>Mes experiences</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem ratione eius odio velit qui, quo inventore incidunt iusto facilis illo nostrum blanditiis! Quis quod nihil consequuntur tempora odit aspernatur dolorum deleniti, maiores amet perferendis eveniet possimus eius recusandae sed necessitatibus, corporis nam consequatur. Vero eligendi esse earum id tempora soluta laborum, minima minus est? Saepe officia placeat soluta eius dolor, repudiandae alias accusamus quod aperiam eum suscipit velit ex vero magni fuga iure debitis? Vitae dolore tempora qui a.</p>
             </div>
             <div class ="portfolio">
