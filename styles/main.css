@@ -20,6 +20,7 @@ h2 {
   text-align: center;
   padding-top: 30px;
   font-size: 2em;
+  color: white;
 }
 
 a {
@@ -59,7 +60,14 @@ header li a {
   padding-top: 60px;
   background: url(../assets/images/image_principale.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
-  height: 799px;
+  height: 900px;
+}
+#cv{
+  padding: 20px 0px 0px 0px;
+  background: url(../assets/images/image_tersiare.jpg) no-repeat fixed 25% 25%;
+  background-size: cover;
+  height: 1300px;
+  background-size: 100%;
 }
 
 h1 {
@@ -120,8 +128,10 @@ h3 {
 }
 
 #presentation {
-  background-color: #c7cac4;
-  padding: 10px 0px 100px 0;
+    padding: 20px 0px 0px 0px;
+    background: url(../assets/images/image_secondaire.jpg) no-repeat fixed 25% 25%;
+    height: 800px;
+    background-size: 100%;
 }
 
 #texteIntro {
@@ -141,6 +151,25 @@ h3 {
 
 ul img {
   height: 20px;
+}
+.image_cv{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60rem;
+  width: auto;
+  opacity: 0.8;
+}
+.photo_profil{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30rem;
+  width: auto;
+  margin-bottom: auto;
+  opacity: 0.8;
 }
 
 /* *************** TOURISME ****************** */
@@ -164,41 +193,3 @@ ul img {
   height: 15rem;
   width: auto;
 }
-
-@media screen and (max-width: 850px) {
-  .imagearticle img {
-    height: 6.5rem;
-    width: auto;
-  }
-
-  .image {
-    min-width: 60px;
-    margin: 10px;
-    cursor: pointer;
-    transition: 0.5 cubic-bezier(0.05, 0.61, 0.41, 0.95);
-    overflow: hidden;
-    position: relative;
-  }
-
-  .image.active {
-    flex-grow: 100;
-    max-width: 400px;
-    margin: 0px;
-    border-radius: 7px;
-    background-size: auto 100%;
-  }
-
-  .image:not(.active) {
-    flex-grow: 1;
-    border: 5px;
-  }
-
-  .portfolio {
-    display: flex;
-    min-width: 400px;
-    max-width: 700px;
-    height: 400px;
-    margin: 4rem auto;
-    justify-content: center;
-  }
-}/*# sourceMappingURL=main.css.map */

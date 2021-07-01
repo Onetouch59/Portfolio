@@ -22,17 +22,18 @@
             
             </ul>
         </nav>
-        <div id="imagePrincipale">
+        <section id="imagePrincipale">
             <h1>Adam Bederiat</h1>
             <div id="premierTrait"></div>
-            <h3>Découvrez moi</h3>
-        </div>
+            <h3>Découvez moi</h3>
+            <img class = "photo_profil" src="../assets/images/photo_profil.png" alt="">
+        </section>
     </header>
 
 
         <section id="presentation">
             <div id="texteIntro">
-                <h2>Mes experiences</h2>
+                <h2>Mes Projets</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem ratione eius odio velit qui, quo inventore incidunt iusto facilis illo nostrum blanditiis! Quis quod nihil consequuntur tempora odit aspernatur dolorum deleniti, maiores amet perferendis eveniet possimus eius recusandae sed necessitatibus, corporis nam consequatur. Vero eligendi esse earum id tempora soluta laborum, minima minus est? Saepe officia placeat soluta eius dolor, repudiandae alias accusamus quod aperiam eum suscipit velit ex vero magni fuga iure debitis? Vitae dolore tempora qui a.</p>
             </div>
             <div class ="portfolio">
@@ -44,25 +45,19 @@
             </div>
         </section>
 
-    <footer>
-        <h2>Contactez-nous</h2>
-        <form>
-            <input placeholder="Nom">
-            <input placeholder="E-mail">
-            <textarea placeholder="Votres message ici..."></textarea>
-            <button>Envoyer</button>
-        </form>
-        <div id="deuxiemeTrait"></div>
-        <div id="copyrightEtIcons"></div>
-        <div id="copyright">
-            <span>© from le plus beau des rebeu</span>
-        </div>
-        <div id="icons">
-            <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i> </a>
-            <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>            
-            <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>            
+    <section id="cv">
+        <div>
+            <h2>Mon CV</h2>
 
         </div>
+        <img class="image_cv" src="../assets/images/curriculum_vitae.jpg" alt="">
+
+    </section>
+    
+    
+    <footer>
+     
+
     </footer>
     
     <script
